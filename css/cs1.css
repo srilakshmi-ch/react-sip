@@ -1,0 +1,175 @@
+body
+{
+	background-color:  #e6ffe6;
+}
+#parent
+{
+	background-color: #b3ccff;
+	margin:5%;
+	display:flex;
+	justify-content: space-between;
+
+	
+}
+img
+{
+	width:175px;
+	height:125px;
+	border-radius: 15px;
+
+}
+.child
+{
+	background-color: #ffcccc;
+	margin: 4%;
+	box-shadow: 3px 3px 3px 3px;
+	width:25%;
+	height: 80%;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+
+	}
+    .resume
+    {
+     width:50%;
+     background-color: #ffcccc;
+     box-shadow: 3px 3px 3px 3px;
+	margin: 4%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	text-align: left;
+	padding-left:2%;
+
+    }
+    table
+    {
+    	border:2px solid black;
+    }
+    td,th
+    {
+    	border:2px solid #999999;
+    	padding:10px 10px 10px 10px;
+    }
+
+    
+   @media screen and (min-width: 320px) and (max-width: 480px)
+   {
+   	body
+ {
+	background-color:  #e6ffe6;
+}
+#parent
+{
+	background-color: #b3ccff;
+	margin:5%;
+	display:inline;
+	justify-content: space-between;
+
+	
+}
+img
+{
+	width:175px;
+	height:125px;
+	border-radius: 15px;
+
+}
+.child
+{
+	background-color: #ffcccc;
+	margin: 5%;
+	box-shadow: 3px 3px 3px 3px;
+	width:87%;
+	height: 90%;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+
+	}
+    .resume
+    {
+     width:87%;
+     background-color: #ffcccc;
+     box-shadow: 3px 3px 3px 3px;
+	margin: 5%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	text-align: left;
+	padding-left:2%;
+
+    }
+    table
+    {
+    	border:2px solid black;
+    }
+    td,th
+    {
+    	border:1px solid #999999;
+    	padding:1px 1px 1px 1px;
+    }
+
+  }
+  @media screen and (min-width:481px) and (max-width:1024px)
+  {
+  		body
+ {
+	background-color:  #e6ffe6;
+}
+#parent
+{
+	background-color: #b3ccff;
+	margin:5%;
+	display:inline;
+	justify-content: space-between;
+
+	
+}
+img
+{
+	width:175px;
+	height:125px;
+	border-radius: 15px;
+
+}
+.child
+{
+	background-color: #ffcccc;
+	margin: 5%;
+	box-shadow: 3px 3px 3px 3px;
+	width:87%;
+	height: 90%;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+
+	}
+    .resume
+    {
+     width:87%;
+     background-color: #ffcccc;
+     box-shadow: 3px 3px 3px 3px;
+	margin: 5%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	text-align: left;
+	padding-left:2%;
+
+    }
+    table
+    {
+    	border:2px solid black;
+    }
+    td,th
+    {
+    	border:2px solid #999999;
+    	padding:2px 2px 2px 2px;
+    }
+
+  }
