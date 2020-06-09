@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>resume</title>
-	<link rel="stylesheet" type="text/css" href="css/cs1.css">
+	<title>resume bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width,initialscale=1.0">
-	
+    <style type="text/css">
+        img
+        {
+            width:90px;height:150px;
+        }
+        
+        
+        .re
+        {
+              width:70%;
+              border:2px solid black;
+              margin: 20px 2px 20px 2px;
+              
+        }
+        .child
+        {
+            width: 30%;
+            height: 25%;
+            margin: 2% 2% 2% 2%;
+        
+        }
+
+    }
+     </style> 
 </head>
-<body>
-<section id="parent">
-		
-        <section class="child" >
-            <img src="images/user.png" alt="user">
-            <h2>Chitti srilakshmi</h2>
-            <h4>student</h4>
-            <hr>
+<body class="bg-dark">
+<section class="container bg-light" style="margin: 5% auto">
+	<div class="row">	
+        <section class="card  text-center border-dark child col-xl-4  col-md-11 col-lg-4 col-sm-11 m-4 col-11">
+        <div class="row">
+            <div class="card-header col-lg-6 col-xl-6 col-md-4 col-sm-12 col-6">
+            <img src="images/user.png" alt="user" class="card-img" >
+            <h3 class="card-title" >Chitti srilakshmi</h3>
+            <h4 class="card-sub-title">student</h4>
+            </div>
+            <div class="card-body text-dark col-xl-6 col-lg-6 col-md-8 col-sm-12 col-6">
             <h4>8885250999</h4>
             <h4>chitti.006@gmail.com</h4>
             <h4>kakinada</h4>
-           
-        </section>
-        <section class="resume">
+            <a href="resume.html" class="btn btn-dark">resume</a>
+           </div>
+        </div>
+
+        </section >
+        <section class="re border-dark p-3 m-4 col-xl-6 col-md-11 col-sm-11 col-11 col-lg-6" >
         	<h2>Carrier Objectives</h2>
            <p>To join an organization that will recognize and utilize my skills fully and offer me a
              responsible position requiring innovative and creative ideas where continuous growth and
@@ -43,8 +72,8 @@
            </ul>
            <hr>
           <h2>Qualification</h2>
-            <table>
-            	<tr>
+            <table class="table table-striped table-hover table-bordered table-sm">
+            	<tr class="thead-dark">
             		<th>SNO</th>
             		<th>Institute</th>
             		<th>course</th>
@@ -52,21 +81,21 @@
             		<th>per</th>
             	</tr>
             	<tr>
-            		<td>1</td>
+            		<td scope="row">1</td>
             		<td>Z.P.G.high school</td>
             		<td>ssc</td>
             		<td>2015</td>
             		<td>9.2</td>
 
             	</tr>
-            	<tr>
+            	<tr scope="row">
             		<td>2</td>
             		<td>Andhra Polytechnic</td>
             		<td>diploma</td>
             		<td>2018</td>
             		<td>9.3</td>
             	</tr>
-            	<tr>
+            	<tr scope="row">
             		<td>3</td>
             		<td>VSM College Of Engineering</td>
             		<td>B.Tech</td>
@@ -84,6 +113,7 @@
             </ul>
             <hr>
         </section>
+    </div>
  </section>
 
 </body>
