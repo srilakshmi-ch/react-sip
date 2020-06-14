@@ -1,0 +1,23 @@
+{
+
+"data":
+    {
+    	"name":"chitti srilakshmi chandika",
+    	"email":"chitti.sri006@gmail.com",
+    	"phoneno":"8885250999"
+    },
+    "mydata":
+       [
+       	{
+       	"name":"chitti srilakshmi chandika",
+    	"email":"chitti.sri006@gmail.com",
+    	"phoneno":"8885250999"	
+        },
+        {
+        "name":"chitti srilakshmi chandika",
+    	"email":"chitti.sri006@gmail.com",
+    	"phoneno":"8885250999"
+        }
+    ]
+
+}

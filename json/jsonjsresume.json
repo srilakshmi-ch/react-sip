@@ -1,0 +1,61 @@
+{
+	"data":
+	  {
+	  	"name":"chitti srilakshmi",
+	  	"phoneno":"8374922899",
+	  	"mail":"chitti.sri006@gmail.com"
+	  },
+
+	  "resume":
+	  [
+	  	{
+	  	"head1":"Carrier Objectives",
+	  	"content1":"To join an organization that will recognize and utilize my skills fully and offer me aresponsible position requiring innovative and creative ideas where continuous growth andlearning which in turn helps to improve and upgrade my skills and enhance my career." },
+	  	{
+	  	"head2":"Stengths" ,
+	  	"st1":"Ability to work independently as well as in a team environment.",
+	  	"st2":"Capability to work for long hours dedicated, determined, punctual and disciplined",
+	  	"st3":"Fast Learner and a Hard Worker.",
+	  	"st4":"Very good listener and keen observer."
+	   },
+	   {
+	  	"head3":"Skills",
+	  	"sk1":"c",
+	  	"sk2":"web designing",
+	  	"sk3":"java",
+	  	"sk4":"c++",
+	  	"sk5":".net"
+	  },
+	  {
+	  	"head4":"Qualification",
+	  	"tr1th1":"SNO",
+	  	"tr1th2":"Institute",
+	  	"tr1th3":"course",
+	  	"tr1th4":"yop",
+	  	"tr1th5":"per",
+	  	"tr2td1":"1",
+	  	"tr2td2":"Z.P.H school",
+	  	"tr2td3":"ssc",
+	  	"tr2td4":"2015",
+	  	"tr2td5":"9.2",
+	  	"tr3td1":"2",
+	  	"tr3td2":"Andhra Polytechnci",
+	  	"tr3td3":"Diploma",
+	  	"tr3td4":"2018",
+	  	"tr3td5":"9.3",
+	  	"tr4td1":"3",
+	  	"tr4td2":"V.S.M COllege Of Engineering",
+	  	"tr4td3":"B.Tech",
+	  	"tr4td4":"2021",
+	  	"tr4td5":"none"
+	  },
+	  {
+         "head5":"hobbies",
+         "hb1":"Reading books",
+         "hb2":"learning unknown things",
+         "hb3":"playing games"
+       }
+
+	 ]
+
+}
