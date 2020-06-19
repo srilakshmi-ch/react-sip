@@ -1,4 +1,3 @@
-alert("hii");
 function jsonFile(file,callback)
   {
   	var ajaxcall=new XMLHttpRequest();

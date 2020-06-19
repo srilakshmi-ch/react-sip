@@ -1,4 +1,4 @@
-alert("hello");
+
 function jsonfilea(file1,callback1)
 {
 
@@ -57,10 +57,7 @@ function jsonfilea(file1,callback1)
                 mail1.textContent=details.mail;
                 secchild1.appendChild(mail1);
 
-                var resume=document.createElement("a");
-                resume.setAttribute("href","jsonjsresume.html");
-                resume.textContent="view resume";
-                secchild1.appendChild(resume);
+               
 
               }
 
